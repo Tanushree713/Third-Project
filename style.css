@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+     }
+
+
+ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 95px;
+    padding-top: 15px;
+    color: #f3b817;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+li:hover{
+  color: rgba(176, 118, 10, 0.803);
+}
+
+section{
+    margin-top: 70px;
+    margin-left: 240px;
+
+}
+P{
+    font-size: 90px;
+    font-weight: 700;
+     word-spacing: 20px;
+     color: #ffcd42;
+}
+
+  .btn1{
+    float: right;
+    color: #fbf6f6;
+    background-color: #e35050;
+    padding: 10px 15px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-size: 18px;
+    font-weight: 500;
+    border-color: #e35050;
+  }  
+  .btn2{
+    color: #fbf6f6;
+    background-color: #e35050;
+    cursor: pointer;
+    border-radius: 10px ;
+    font-size: 19px;
+    font-weight: 500;
+    margin-left: 170px;
+    margin-top: 10px;
+    padding: 15px 25px;
+    border-color: #e35050;
+  }
+ .img2{
+    float: right;
+    font-size: 10px;
+
+
+    }
+ .btn1:hover,.btn2:hover{
+    color: #e35050;
+    background-color: #2d2a2a5c;
+ }   
